@@ -1,0 +1,145 @@
+/*::::INICIO*/
+body{
+    background: #FFF2CC;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Comme', sans-serif;
+font-family: 'Roboto', sans-serif;
+}
+@import url('https://fonts.googleapis.com/css2? family=Roboto:ital@1&display=swap');
+
+header{
+background-color: #F4B183;
+padding: 10px 30px;
+display: flex;
+justify-content: space-between;
+}
+
+header nav{
+    display: flex;
+    align-items: center;
+}
+header nav ul{ 
+    list-style-type: none;
+    display: flex;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    color: brown;
+    margin-left: 20px;
+}
+
+a:hover{
+    color: aqua;
+}
+
+.Logo{
+    width: 150px;
+    height: 55px;
+}
+
+
+.parrafo1{
+    margin: 50px;
+}
+
+.parrafo2{
+    margin: 50px;
+}
+
+main div img{
+    height: 550px;
+    width: 450px;
+
+}
+
+.principal{
+    text-align: center;
+}
+
+
+.principal2{
+    text-align: center;
+}
+
+
+.final{
+    margin: 50px;
+}
+
+/*::::QUIENES SOMOS*/
+
+
+.parrafo{
+    margin: 30px;
+}
+
+.imagen{
+    height: 550px;
+    width: 450px;
+    margin: 0 10px;
+}
+
+.contenedor{
+    display: flex;
+    justify-content: center
+}
+
+/*::::CARTA*/
+
+.carta{
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.tabla{
+    display: flex;
+    justify-content: space-between;
+}
+
+.imagen{
+    height: 550px;
+    width: 450px;
+    margin: 0 10px;
+    }
+
+/*::::PROMOCIONES*/
+.promos{
+    margin: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+.promociones{
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.imagen{
+    height: 550px;
+    width: 450px;
+    margin: 0 10px;
+}
+
+/*::::CONTACTANOS*/
+
+.pedidos{
+    margin: 30px;
+}
+
+.ubicación{
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.mapa{
+    display: flex;
+    justify-content: center;
+}
