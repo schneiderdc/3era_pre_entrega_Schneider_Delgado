@@ -106,7 +106,7 @@ footer{
 /*::::CARTA*/
 
 main{
-    background-color: #FFD966;
+
 
     display: flex;
     flex-direction: column;
@@ -158,12 +158,8 @@ main section div .marco{
 
 /*::::CONTACTANOS*/
 
-.pedidos{
-    margin: 30px;
-}
-
 .ubicación{
-    margin: 30px;
+    margin: 10px;
     display: flex;
     justify-content: center;
 }
@@ -171,4 +167,11 @@ main section div .marco{
 .mapa{
     display: flex;
     justify-content: center;
+    margin: 10px;
+}
+@media(max-width:668px){
+    main section .formulario{
+        display: flex;
+        flex-direction: column;
+    }
 }
