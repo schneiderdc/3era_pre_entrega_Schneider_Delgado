@@ -1,8 +1,4 @@
 /*::::INICIO*/
-body{
-    background: #FFF2CC;
-}
-
 *{
     padding: 0;
     margin: 0;
@@ -12,29 +8,32 @@ font-family: 'Roboto', sans-serif;
 }
 @import url('https://fonts.googleapis.com/css2? family=Roboto:ital@1&display=swap');
 
+body {
+    background: #FFF2CC;
+}
+
+/*::::menú*/
 header{
 background-color: #F4B183;
 padding: 10px 30px;
-display: flex;
-justify-content: space-between;
 }
 
-header nav{
-    display: flex;
-    align-items: center;
-}
-header nav ul{ 
-    list-style-type: none;
-    display: flex;
-}
-
-header nav ul li a{
-    text-decoration: none;
+header .navbar .navbar-nav .nav-item .nav-link{
+    background-color: #F4B183;
     color: brown;
-    margin-left: 20px;
+    padding: 10px 30px;
 }
 
-a:hover{
+.navbar{
+    width: 100%;
+}
+
+.navbar-nav{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
+header .navbar .navbar-nav .nav-item .nav-link:hover{
     color: aqua;
 }
 
@@ -42,34 +41,51 @@ a:hover{
     width: 150px;
     height: 55px;
 }
-
-
-.parrafo1{
-    margin: 50px;
+/*::::texto del parrafo*/
+section article p .parrafo{
+    margin: 30px;
+}
+/*::::main*/
+main{
+    padding: 20px 0px;
 }
 
-.parrafo2{
-    margin: 50px;
+.card-plato{
+    width: 430px;
+    height: 230px;
+    box-shadow: 0 0 20px;
+    margin: 0;
+}
+.imagen-plato{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 60%;
+    padding: 10px 20px 0px;
 }
 
-main div img{
-    height: 550px;
-    width: 450px;
+/*::::footer*/
+header, footer{
+    padding: 10px 30px;
+    height: 100px;
+    background-color: #F4B183;
+}
+footer{
+    height: 100%;
 
 }
 
-.principal{
-    text-align: center;
-}
-
-
-.principal2{
-    text-align: center;
-}
-
-
-.final{
-    margin: 50px;
+@media screen and (max-width:576px){
+    .Logo{
+        display: none;
+    }
+    .card-plato{
+        width: 100%;
+    }
+    .card-plato{
+        display: flex;
+        flex-direction: column;
+    }
 }
 
 /*::::QUIENES SOMOS*/

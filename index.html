@@ -1,72 +1,151 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>La Patrona</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="shortcut icon" href="img/logo.jpeg">
-    <script src="https://kit.fontawesome.com/992fc8ef3f.js" crossorigin="anonymous"></script>
-</head>
-<body>
-    <!--encabezado-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="shortcut icon" href="img/logo.jpeg" />
+    <script
+      src="https://kit.fontawesome.com/992fc8ef3f.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <!--Encabezado-->
     <header>
-        <div>
-        <img src="./img/logo.jpeg" class="Logo" alt="Logo">
-    </div>
-        <nav>
-
-            <ul>
-                <li><a href="../index.html">Inicio</a></li>
-                <li><a href="./pages/quienes somos.html">Quienes somos</a></li>
-                <li><a href="./pages/carta.html">Carta</a></li>
-                <li><a href="./pages/promociones.html">Promociones</a></li>
-                <li><a href="./pages/contactanos.html">Contáctanos</a></li>
+      
+      <nav class="navbar navbar-expand-md bg-transparent">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="../index.html"><img src="./img/logo.jpeg" class="Logo" alt="Logo" /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="./pages/quienes somos.html">Quienes somos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./pages/carta.html">Carta</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./pages/promociones.html">Promociones</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./pages/contactanos.html">Contáctanos</a>
+              </li>
             </ul>
-        </nav>
+          </div>
+        </div>
+      </nav>
 
-</header>
-
-<!--Pagina principal-->
-<main>
-    <section>
-    <p class="parrafo1">La mejor opción de comida rápida en calidad y servicio, no importa donde estés, siempre llegamos a ti para engreirte con nuestro único sabor. ¡Gracias por preferirnos!</p>
-
-    <div class="principal">
-        <img src="./img/principal.jpeg" alt="Principal">
-    </div>
-
-        <p class="parrafo2">El único sabor que no te arrepentirás de probar; ya que contamos con diversos platos y papas nativas oriundas de nuestro Perú.</p>
+    </header>
+    <section class="container">
+      <article class="row">
+        <p class="parrafo col-12">
+          La mejor opción de comida rápida en calidad y servicio, no importa
+      donde estés, siempre llegamos a ti para engreirte con nuestro único
+      sabor. ¡Gracias por preferirnos!
+        </p>
+      </article>
     </section>
-
-<section class="principal2">
-        <video autoplay controls loop>
-            <source src="./video/inicio video.mp4" type="video/mp4">
-        </video>
-    </section>
+    <!--Pagina principal-->
+    <main>
+        <section class="container">
+        <div class="row d-fles justify-content-xl-center">
+<!--card-->
+          <div class="card-plato col-xs-12 col-lg-4">
+            <div class="imagen-plato">
+          <img src="./img/principal.jpeg" alt="Principal" />
+        </div>
+        <div>
+          <h2>Salchi Pig</h2>
+          <p>Papas+Hotdog Ahumado+Huevo+Tocino+Hamb.Pollo+Ensalada+Salsas</p>
+        </div>
+        </div>
+<!--card-->
+        <div class="card-plato col-xs-12 col-lg-4">
+          <div class="imagen-plato">
+          <video autoplay controls loop >
+            <source src="./video/inicio video.mp4" type="video/mp4" />
+          </video>
+        </div>
+        <div>
+          <h2>Salchi a lo Pobre</h2>
+          <p>Papas+Hotdog Ahumado+Huevo+Plátano+Ensalada+Salsas</p>
+        </div>
+        </div>
+<!--card-->
+        <div class="card-plato col-xs-12 col-lg-4">
+          <div class="imagen-plato">
+          <img src="./img/patitas.jpeg" alt="patitas">
+        </div>
+        <div>
+          <h2>Patitas</h2>
+        <p>Papas+hotdog+Patitas Broaster+Ensalada+Salsas</p>
+      </div>
+        </div>
+        </div>
+</section>
     </main>
 
-    <!--final-->
-<footer class="final">
-        <section>
-            <h2>INFORMACIÓN</h2>
-            <P>Atención todos los días de L-V (06:00 PM - 12:00 AM)</P>
-        </section>
-        <nav>
-            <h2>SÍGUENOS</h2>
-            <div>
-                <a href="#" class="fa fa-facebook"></a>
-                <a href="#" class="fa fa-instagram"></a>
-                <a href="#" class="fa fa-twitter"></a>
-                <a href="#" class="fa fa-youtube"></a>
-            </div>
-        </nav>
-    <section>
-        <small>&copy; 2023 <b>La Patrona</b> - Todos los Derechos Reservados</small>
-    </section>
-</footer>
-</body>
+    <section class="container">
+      <article class="row">
+      <p class="parrafo col-12">
+        El único sabor que no te arrepentirás de probar; ya que contamos con
+        diversos platos y papas nativas oriundas de nuestro Perú.
+    </p>
+  </article>
+  </section>
+
+    <!--redes-->
+    <footer>
+      <section class="container">
+        <div class="row">
+        <h2 class="col-6">INFORMACIÓN</h2>
+        <p class="col-6">Atención todos los días de L-V (06:00 PM - 12:00 AM)</p>
+      </div>
+      
+      <nav class="row">
+        <h2 class="col-6">SÍGUENOS</h2>
+        <div class="col6">
+          <a href="#" class="fa fa-facebook"></a>
+          <a href="#" class="fa fa-instagram"></a>
+          <a href="#" class="fa fa-twitter"></a>
+          <a href="#" class="fa fa-youtube"></a>
+        </div>
+      </nav>
+      <div class="row">
+        <small class="col-12">
+          &copy; 2023 <b>La Patrona</b> - Todos los Derechos Reservados
+        </small>
+        </div>
+      </section>
+    </footer>
+  </body>
 </html>
