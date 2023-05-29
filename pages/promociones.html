@@ -1,64 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Promociones</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="../css/styles.css">
-    <link rel="shortcut icon" href="../img/logo.jpeg">
-    <script src="https://kit.fontawesome.com/992fc8ef3f.js" crossorigin="anonymous"></script>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Promociones</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="../css/styles.css">
+  <link rel="shortcut icon" href="../img/logo.jpeg">
+  <script src="https://kit.fontawesome.com/992fc8ef3f.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
-    <!--encabezado-->
+  <!--menú-->
 
-    <header>
-        <div>
-        <img src="../img/logo.jpeg" class="Logo" alt="Logo">
-    </div>
-        <nav>
-            <ul>
-                <li><a href="../index.html">Inicio</a></li>
-                <li><a href="../pages/quienes somos.html">Quienes somos</a></li>
-                <li><a href="../pages/carta.html">Carta</a></li>
-                <li><a href="../pages/promociones.html">Promociones</a></li>
-                <li><a href="../pages/contactanos.html">Contáctanos</a></li>
-            </ul>
-        </nav>
-    </header>
-
-    <!--Pagina Principal-->
-
-    <main>
-        <h1 class="promociones">Nuestras Promociones</h1>
-    <div class="promos">
-        <img class="imagen" src="../img/promociones.jpeg" alt="Promociones">
-        <video autoplay controls loop class="imagen">
-            <source src="../video/promoción video.mp4" type="video/mp4">
-        </video>
-    </div>
-    </main>
-
-    <!--final-->
-<footer class="final">
-    <section>
-        <h2>INFORMACIÓN</h2>
-        <P>Atención todos los días de L-V (06:00 PM - 12:00 AM)</P>
-    </section>
-    <nav>
-        <h2>SÍGUENOS</h2>
-        <div>
-            <a href="#" class="fa fa-facebook"></a>
-            <a href="#" class="fa fa-instagram"></a>
-            <a href="#" class="fa fa-twitter"></a>
-            <a href="#" class="fa fa-youtube"></a>
+  <header>
+    <nav class="navbar navbar-expand-md bg-transparent">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="../index.html"><img src="../img/logo.jpeg" class="Logo" alt="Logo" /></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="../pages/quienes somos.html">Quienes somos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="../pages/carta.html">Carta</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="../pages/promociones.html">Promociones</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="../pages/contactanos.html">Contáctanos</a>
+            </li>
+          </ul>
         </div>
+      </div>
     </nav>
-<section>
-    <small>&copy; 2023 <b>La Patrona</b> - Todos los Derechos Reservados</small>
-</section>
-</footer>
+  </header>
+
+  <!--Pagina Principal-->
+
+  <main>
+    <section class="container">
+      <div class="row d-fles justify-content-xxl-center">
+      <div class="promociones">
+    <h1 class="col-12">Nuestras Promociones</h1>
+  </div>
+    <div class="marco row">
+      <!--card-->
+      <div class="card-carta col-xs-12 col-lg-6">
+      <img class="imagen-promo" src="../img/promociones.jpeg" alt="Promociones">
+      <h2 class="texto-promo col-12">Más divertido es en Familia</h2>
+    </div>
+    <!--card-->
+    <div class="card-carta col-xs-12 col-lg-6">
+      <video autoplay controls loop class="imagen-promo">
+        <source src="../video/promoción video.mp4" type="video/mp4">
+      </video>
+      <h2 class="texto-promo col-12">La unión es lo que nos hace fuerte</h2>
+    </div>
+    </div>
+  </div>
+  </section>
+  </main>
+
+  <!--redes-->
+  <footer>
+    <section class="container">
+      <div class="row">
+      <h2 class="col-6">INFORMACIÓN</h2>
+      <p class="col-6">Atención todos los días de L-V (06:00 PM - 12:00 AM)</p>
+    </div>
+    
+    <nav class="row">
+      <h2 class="col-6">SÍGUENOS</h2>
+      <div class="col6">
+        <a href="#" class="fa fa-facebook"></a>
+        <a href="#" class="fa fa-instagram"></a>
+        <a href="#" class="fa fa-twitter"></a>
+        <a href="#" class="fa fa-youtube"></a>
+      </div>
+    </nav>
+    <div class="row">
+      <small class="col-12">
+        &copy; 2023 <b>La Patrona</b> - Todos los Derechos Reservados
+      </small>
+      </div>
+    </section>
+  </footer>
 </body>
+
 </html>
