@@ -1,0 +1,17 @@
+@import 'generales';
+@import 'variables';
+@import 'condicionales';
+@import 'maps';
+@import 'mixins';
+@import 'header';
+@import 'footer';
+@import 'inicio';
+@import 'quienes-somos';
+@import 'carta';
+@import 'promociones';
+@import 'contactos';
+
+/*fondo general*/
+body {
+    background: $colo-fondo-body;
+}

@@ -1,0 +1,29 @@
+/*::::menú*/
+header{
+    background-color: $color-fondo-header;
+    padding: 10px 30px;
+    
+    .nav-link.active {
+        background-color: $color-fondo-header;
+        color: brown;
+        padding: 10px 30px;
+        &:hover{
+            color: aqua;
+        }
+    }
+    
+    .navbar{
+        width: 100%;
+    }
+    
+    .navbar-nav{
+        width: 100%;
+        display: flex;
+        justify-content: end;
+    }
+    
+    .Logo{
+        width: 150px;
+        height: 55px;
+    }
+    }

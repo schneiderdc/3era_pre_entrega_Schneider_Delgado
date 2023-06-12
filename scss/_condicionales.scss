@@ -1,0 +1,56 @@
+/*fondo body*/
+$vista: fondo;
+
+@if $vista == fondo{
+    body {
+        background-color: #FFF2CC;
+    }
+}
+@else if $vista == pagina{
+    body {
+        background-color: brown;
+    }
+}
+@else{
+    body {
+        background-color: rgb(249, 249, 139);
+    }
+}
+
+/*fondo header*/
+    $vista: fondo;
+
+    @if $vista == pagina{
+        header {
+            background-color: #FFF2CC;
+        }
+    }
+    @else if $vista == fondo{
+        header {
+            background-color: #F4B183;
+        }
+    }
+    @else{
+        header {
+            background-color: rgb(116, 156, 244);
+        }
+    }
+
+/*fondo footer*/
+    $vista: fondo;
+    
+    @if $vista == pagina{
+        footer {
+            background-color: #FFF2CC;
+        }
+    }
+    @else if $vista == fondo{
+        footer {
+            background-color: #F4B183;
+        }
+    }
+    @else{
+        footer {
+            background-color: rgb(247, 129, 206);
+        }
+    }    

@@ -1,0 +1,13 @@
+/*::::QUIENES SOMOS*/
+
+main{
+    .parrafo{
+        margin: 30px;
+    }
+}
+
+@media (min-width: 480px) and (max-width:820px){
+    main section div .parrafo{
+        display: none;
+    }
+}
