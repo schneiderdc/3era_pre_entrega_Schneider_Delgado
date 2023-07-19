@@ -17,6 +17,12 @@
     crossorigin="anonymous"></script>
   <link rel="stylesheet" href="../css/styles.css">
   <link rel="shortcut icon" href="../img/logo.jpeg">
+  <!--ANIMACIONES-->
+  <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+/>
+
   <script src="https://kit.fontawesome.com/992fc8ef3f.js" crossorigin="anonymous"></script>
 </head>
 
@@ -32,7 +38,7 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <ul class="animate__animated animate__rubberBand navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
             </li>
@@ -74,8 +80,8 @@
         </p>
         </div>
         <div class="marco row">
-          <img class="col-6" src="../img/restaurante.jpeg" alt="Restaurante">
-          <img class="col-6" src="../img/cocineros.jpeg" alt="Cocineros">
+          <img class="animate__animated animate__slideInLeft col-6" src="../img/restaurante.jpeg" alt="Restaurante">
+          <img class="animate__animated animate__slideInRight col-6" src="../img/cocineros.jpeg" alt="Cocineros">
         </div>
       </div>
       </section>
@@ -83,14 +89,17 @@
 
     <!--final-->
     <footer>
-      <section class="container">
-        <div class="row">
-        <h2 class="col-6 animate__animated animate__zoomInDown">INFORMACIÓN</h2>
+      <section class="animate__animated animate__heartBeat container">
+        <div class="row" style="
+        display: grid;
+        justify-content: initial;
+    ">
+        <h2 class="col-6">INFORMACIÓN</h2>
         <p class="col-6">Atención todos los días de L-V (06:00 PM - 12:00 AM)</p>
       </div>
       
       <nav class="row">
-        <h2 class="col-6 animate__animated animate__zoomInDown">SÍGUENOS</h2>
+        <h2 class="col-6">SÍGUENOS</h2>
         <div class="col6">
           <a href="#" class="fa fa-facebook"></a>
           <a href="#" class="fa fa-instagram"></a>

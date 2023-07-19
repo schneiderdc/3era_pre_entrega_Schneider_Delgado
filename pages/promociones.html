@@ -17,6 +17,12 @@
     crossorigin="anonymous"></script>
   <link rel="stylesheet" href="../css/styles.css">
   <link rel="shortcut icon" href="../img/logo.jpeg">
+  <!--ANIMACIONES-->
+  <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+/>
+
   <script src="https://kit.fontawesome.com/992fc8ef3f.js" crossorigin="anonymous"></script>
 </head>
 
@@ -32,7 +38,7 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <ul class="animate__animated animate__rubberBand navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
             </li>
@@ -60,20 +66,33 @@
     <section class="container">
       <div class="row d-fles justify-content-xxl-center">
       <div class="promociones">
-    <h1 class="col-12">Nuestras Promociones</h1>
+    <h1 class="animate__animated animate__rotateIn col-12">Nuestras Promociones</h1>
   </div>
-    <div class="marco row">
+    <div class="marco row" style="
+    display: flex;
+    justify-content: space-evenly;
+">
       <!--card-->
-      <div class="card-carta col-xs-12 col-lg-6">
+      <div class="animate__animated animate__flip card-carta col-xs-12 col-lg-6" style="
+      height: 400px;
+      margin: 10px;
+  ">
       <img class="imagen-promo" src="../img/promociones.jpeg" alt="Promociones">
-      <h2 class="texto-promo col-12">Más divertido es en Familia</h2>
+      <h2 class="texto-promo col-12" style="
+      padding: 40px;
+  ">Más divertido es en Familia</h2>
     </div>
     <!--card-->
-    <div class="card-carta col-xs-12 col-lg-6">
+    <div class="animate__animated animate__flip card-carta col-xs-12 col-lg-6" style="
+    height: 400px;
+    margin: 10px;
+">
       <video autoplay controls loop class="imagen-promo">
         <source src="../video/promoción video.mp4" type="video/mp4">
       </video>
-      <h2 class="texto-promo col-12">La unión es lo que nos hace fuerte</h2>
+      <h2 class="texto-promo col-12" style="
+      padding: 40px;
+  ">La unión es lo que nos hace fuerte</h2>
     </div>
     </div>
   </div>
@@ -94,8 +113,11 @@
 
   <!--redes-->
   <footer>
-    <section class="container">
-      <div class="row">
+    <section class="animate__animated animate__heartBeat container">
+      <div class="row" style="
+      display: grid;
+      justify-content: initial;
+  ">
       <h2 class="col-6">INFORMACIÓN</h2>
       <p class="col-6">Atención todos los días de L-V (06:00 PM - 12:00 AM)</p>
     </div>

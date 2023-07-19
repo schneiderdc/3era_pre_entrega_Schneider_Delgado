@@ -22,6 +22,12 @@
     ></script>
     <link rel="stylesheet" href="css/styles.css" />
     <link rel="shortcut icon" href="img/logo.jpeg" />
+    <!--ANIMACIONES-->
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+
     <script
       src="https://kit.fontawesome.com/992fc8ef3f.js"
       crossorigin="anonymous"
@@ -47,7 +53,7 @@
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <ul class="animate__animated animate__rubberBand navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
               </li>
@@ -83,34 +89,52 @@
         <section class="container">
         <div class="row d-fles justify-content-xl-center">
 <!--card-->
-          <div class="card-plato col-xs-12 col-lg-4">
+          <div class="card-plato col-xs-12 col-lg-4" style="
+          height: 400px;
+          margin: 10px;
+      ">
             <div class="imagen-plato">
           <img src="./img/principal.jpeg" alt="Principal" />
         </div>
         <div>
-          <h2>Salchi Pig</h2>
+          <h2 class="animate__animated animate__bounceIn" style="
+          text-align: center;
+          padding: 15px;
+      ">Salchi Pig</h2>
           <p>Papas+Hotdog Ahumado+Huevo+Tocino+Hamb.Pollo+Ensalada+Salsas</p>
         </div>
         </div>
 <!--card-->
-        <div class="card-plato col-xs-12 col-lg-4">
+        <div class="card-plato col-xs-12 col-lg-4" style="
+        height: 400px;
+        margin: 10px;
+    ">
           <div class="imagen-plato">
           <video autoplay controls loop >
             <source src="./video/inicio video.mp4" type="video/mp4" />
           </video>
         </div>
         <div>
-          <h2>Salchi a lo Pobre</h2>
+          <h2 class="animate__animated animate__bounceIn" style="
+          text-align: center;
+          padding: 15px;
+      ">Salchi a lo Pobre</h2>
           <p>Papas+Hotdog Ahumado+Huevo+Plátano+Ensalada+Salsas</p>
         </div>
         </div>
 <!--card-->
-        <div class="card-plato col-xs-12 col-lg-4">
+        <div class="card-plato col-xs-12 col-lg-4" style="
+        height: 400px;
+        margin: 10px;
+    ">
           <div class="imagen-plato">
           <img src="./img/patitas.jpeg" alt="patitas">
         </div>
         <div>
-          <h2>Patitas</h2>
+          <h2 class="animate__animated animate__bounceIn" style="
+          text-align: center;
+          padding: 15px;
+      ">Patitas</h2>
         <p>Papas+hotdog+Patitas Broaster+Ensalada+Salsas</p>
       </div>
         </div>
@@ -129,8 +153,11 @@
 
     <!--redes-->
     <footer>
-      <section class="container">
-        <div class="row">
+      <section class="animate__animated animate__heartBeat container">
+        <div class="row" style="
+        display: grid;
+        justify-content: initial;
+    ">
         <h2 class="col-6">INFORMACIÓN</h2>
         <p class="col-6">Atención todos los días de L-V (06:00 PM - 12:00 AM)</p>
       </div>
